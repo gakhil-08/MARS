@@ -1,0 +1,7 @@
+{
+  "name": "HospiceFlow - Patient-Centric Coordination",
+  "description": "A professional hospital workflow management system designed for doctors, nurses, labs, and pharmacies to coordinate patient care with real-time updates and an AI-powered patient assistant.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
