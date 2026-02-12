@@ -10,51 +10,51 @@ This project provides a patient-centric workflow system where all clinical actio
 
 The system allows:
 
-Doctors to create prescriptions, diagnostic requests, and care instructions
+-Doctors to create prescriptions, diagnostic requests, and care instructions
 
-Departments to receive and update requests
+-Departments to receive and update requests
 
-Real-time status tracking
+-Real-time status tracking
 
-A shared patient timeline visible to all stakeholders
+-A shared patient timeline visible to all stakeholders
 
 The focus is on:
 
-Structured clinical workflows
+-Structured clinical workflows
 
-Real-time coordination
+-Real-time coordination
 
-Transparent action tracking
+-Transparent action tracking
 
-Tech Stack
+Tech Stack:
 
 Frontend:
 
-React.js – Dynamic and responsive UI
-HTML5 & CSS3
-Custom Neumorphism Design
-Axios – API communication
+-React.js – Dynamic and responsive UI
+-HTML5 & CSS3
+-Custom Neumorphism Design
+-Axios – API communication
 
 Backend:
 
-Node.js – Server-side runtime
-Express.js – REST API development
+-Node.js – Server-side runtime
+-Express.js – REST API development
 
 Database:
 
-MySQL (Relational Database)
+-MySQL (Relational Database)
 
 Authentication:
 
-JWT (JSON Web Token) – Secure authentication
-bcrypt – Password encryption
+-JWT (JSON Web Token) – Secure authentication
+-bcrypt – Password encryption
 
 Installation & Setup
 
 Prerequisites
-- Node.js (if using Node)
+-Node.js (if using Node)
 
-Dependencies
+Dependencies:
 
 Main dependencies used:
 -express
@@ -67,6 +67,6 @@ Main dependencies used:
 
 Instructions
 
-Ensure database is running before starting backend
-Use proper role login (Doctor / Nurse / Lab / Pharmacy)
-Real-time updates require both frontend and backend running
+-Ensure database is running before starting backend
+-Use proper role login (Doctor / Nurse / Lab / Pharmacy)
+-Real-time updates require both frontend and backend running
