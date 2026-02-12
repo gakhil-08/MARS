@@ -1,63 +1,72 @@
-# 🏥 Patient-Centric Clinical Workflow & Coordination System
+Project Title
 
-## 📌 Problem Statement
+Patient-Centric Clinical Workflow & Real-Time Hospital Coordination System
 
-Hospitals involve multiple departments such as doctors, nurses, pharmacies, and diagnostic units. 
-Clinical requests are often handled manually, updates are delayed, and patient data is scattered across systems.
+Description
 
-This project builds a patient-centric workflow system where all clinical actions are organized 
-around a single patient record with real-time updates.
+Hospitals involve multiple departments such as doctors, nurses, pharmacies, and diagnostic units. These departments often work in fragmented systems, leading to delayed updates, miscommunication, and lack of visibility into patient status.
 
----
+This project provides a patient-centric workflow system where all clinical actions are organized around a single unified patient record.
 
-## 🎯 Objective
+The system allows:
 
-- Create a unified patient record
-- Enable doctors to initiate prescriptions, lab tests, and referrals
-- Route requests to relevant departments
-- Provide real-time workflow visibility
-- Track Completed / In-Progress / Pending actions
+Doctors to create prescriptions, diagnostic requests, and care instructions
 
----
+Departments to receive and update requests
 
-## 🚀 Features
+Real-time status tracking
 
-### 👨‍⚕️ Doctor Module
-- Create prescriptions
-- Request diagnostics
-- Add care instructions
+A shared patient timeline visible to all stakeholders
 
-### 🧪 Diagnostic Module
-- View test requests
-- Update status (In Progress / Completed)
+The focus is on:
 
-### 💊 Pharmacy Module
-- Receive prescriptions
-- Mark medicines as dispensed
+Structured clinical workflows
 
-### 📊 Patient Timeline
-- Chronological activity view
-- Real-time status tracking
-- Clear workflow visualization
+Real-time coordination
 
----
+Transparent action tracking
 
-## 🛠️ Tech Stack
+Tech Stack
 
-- Frontend: (Add your tech – React / HTML / Flutter etc.)
-- Backend: (Node.js / Django / etc.)
-- Database: (MongoDB / PostgreSQL etc.)
-- Real-Time: (WebSockets / Firebase etc.)
+Frontend:
 
----
+React.js – Dynamic and responsive UI
+HTML5 & CSS3
+Custom Neumorphism Design
+Axios – API communication
 
-## ⚙️ Installation & Setup
+Backend:
 
-### Prerequisites
+Node.js – Server-side runtime
+Express.js – REST API development
+
+Database:
+
+MySQL (Relational Database)
+
+Authentication:
+
+JWT (JSON Web Token) – Secure authentication
+bcrypt – Password encryption
+
+Installation & Setup
+
+Prerequisites
 - Node.js (if using Node)
 
-### Steps
+Dependencies
 
-```bash
-npm install
-npm run dev
+Main dependencies used:
+-express
+-mongoose
+-cors
+-dotenv
+-react
+-axios
+-socket.i
+
+Instructions
+
+Ensure database is running before starting backend
+Use proper role login (Doctor / Nurse / Lab / Pharmacy)
+Real-time updates require both frontend and backend running
